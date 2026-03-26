@@ -1,2 +1,15 @@
-# java-test-0005-final-16427-atharva
-Final Project Assignment - This repository contains the complete final project code and documentation.
+//# java-test-0005-final-16427-atharva
+public class FloydsTriangle {
+    public static void main(String[] args) {
+        final int TOTAL_ROWS = 5;
+        int currentNumber = 1;
+
+        for (int i = 1; i <= TOTAL_ROWS; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(currentNumber + " ");
+                currentNumber++;
+            }
+            System.out.println();
+        }
+    }
+}
